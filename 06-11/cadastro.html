@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h2>Bem vindo ao cadastro</h2>
+
+    <p>Aqui você pode fazer seu cadastro e receber as notícias do mundo todos os dias.</p>
+    <hr>
+
+    <form action="#" method="post">
+
+        <label for="nome">Nome: *</label>
+        <input type="text" name="nome" id="nome" required placeholder="Digite seu nome"> <br><br>
+
+        <label for="tel">Telefone: </label>
+        <input type="number" name="tel" id="tel" placeholder="(00) 0000-0000"> <br><br>
+
+        <label for="email">Email: *</label>
+        <input type="email" name="email" id="email" required placeholder="Digite seu email"><br> <br>
+
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" value="F"> Feminino
+        <input type="radio" name="sexo" value="M"> Masculino
+
+        <br><br>
+
+        <label>Cidade</label>
+	    <input type = "text" list = "cidades" placeholder="Selecione uma cidade">
+	    <datalist id = "cidades">
+            <option value = "AC"> Acre </option>
+            <option value = "AL"> Alagoas </option>
+            <option value = "AP"> Amapá </option>
+            <option value = "AM"> Amazonas </option>
+            <option value = "BA"> Bahia </option>
+            <option value = "CE"> Ceará </option>
+            <option value = "ES"> Espirito Santo </option>
+            <option value = "GO"> Goiás </option>
+            <option value = "MA"> Maranhão </option>
+            <option value = "MT"> Mato Grosso </option>
+            <option value = "MS"> Mato Grosso do Sul </option>
+            <option value = "MG"> Minas Gerais </option>
+            <option value = "PA"> Pará </option>
+            <option value = "PB"> Paraíba </option>
+            <option value = "PR"> Paraná </option>
+            <option value = "PE"> Pernambuco </option>
+            <option value = "PI"> Piauí </option>
+            <option value = "RJ"> Rio de Janeiro </option>
+            <option value = "RN"> Rio Grande do Norte </option>
+            <option value = "RS"> Rio Grande do Sul </option>
+            <option value = "RO"> Rondônia </option>
+            <option value = "RR"> Roraima </option>
+            <option value = "SC"> Santa Catarina </option>
+            <option value = "SP"> São Paulo </option>
+            <option value = "SE"> Sergipe </option>
+            <option value = "TO"> Tocantins </option>
+	    </datalist>
+        <br><br>
+
+        <input type="submit" value="Cadastrar">
+        <br><br>
+
+    </form>
+
+    <a href="index.html">Voltar</a>
+</body>
+</html>
