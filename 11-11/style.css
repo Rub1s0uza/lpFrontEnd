@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.menu{
+    width: 98%;
+    background: #444;
+    left: 1%;
+    display: flex;
+    justify-content: left;
+    padding: 0px 0px;
+    position: absolute;
+
+}
+
+li {
+    /*marcadores*/
+    list-style: none;
+
+    display: inline;
+}
+
+a {
+    padding: 16px;
+    color: #e7be55;
+    /*apenas font mudamos o tamanho*/
+    font: 1.5em Tahoma;
+    text-decoration: none;
+}
+
+a:hover{
+    padding: 16px;
+    color: #fff;
+    font: 1.5em Tahoma;
+    text-decoration: none;
+
+}
+
+#conteudo{
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    height: 80%;
+    top: 15%;
+    border: #b30606 4px solid;
+}
