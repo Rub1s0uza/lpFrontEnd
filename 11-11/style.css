@@ -42,3 +42,39 @@ a:hover{
     top: 15%;
     border: #b30606 4px solid;
 }
+
+#botao {
+    text-align: right;
+    padding: 8px;
+ }	   
+
+ #cadastrar {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #F0F8FF;
+    color: black;
+    border: 2px solid rgb(74, 226, 137);
+  }
+  
+#cadastrar:hover {
+         width: 30%;
+         border-radius: 5px;
+         background-color: #68d197;
+         color: #F0F8FF;
+         border: 2px solid #F0F8FF;
+         cursor:pointer;
+}
+
+table {
+    margin: 0 auto;
+    width: 600px;
+   }
+   
+td {
+  padding: 8px;
+ }
+
+ img{
+    width: 193px;
+    height: 200px;
+ }
