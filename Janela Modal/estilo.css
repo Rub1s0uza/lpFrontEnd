@@ -1,6 +1,11 @@
 .col-md-4 img{
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 30px;
+}
+
+.col-md-6 img{
+    max-width: 500px;
+    
 }
 
 button{
